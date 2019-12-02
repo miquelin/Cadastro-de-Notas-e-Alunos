@@ -1,0 +1,36 @@
+﻿@model SistemaDeNotas.Models.Nota
+<br />
+<img width="400px" height="200px" src="~/Imagens/notas1.png" />
+
+<form class="formulario" method="post" asp-action="AddNotas">
+
+    <h1>Adicionar Nota</h1>
+
+    <div class="form-group">
+        <label asp-for="IdAluno">ID do Aluno - Cole o ID do aluno aqui:</label>
+        <input class="form-control" asp-for="IdAluno" />
+    </div> 
+
+    <div class="form-group">
+        <label asp-for="Nota1">Primeira Nota</label>
+        <input class="form-control" asp-for="Nota1" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nota2">Segunda Nota</label>
+        <input class="form-control" asp-for="Nota2" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nota3">Terceira Nota</label>
+        <input class="form-control" asp-for="Nota3" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nota4">Quarta Nota</label>
+        <input class="form-control" asp-for="Nota4" />
+    </div>
+         
+    <input class="btn btn-info" type="submit" value="Salvar Nota" />
+
+</form>

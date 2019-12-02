@@ -1,0 +1,18 @@
+﻿@model List<SistemaDeNotas.Models.Nota>
+<br />
+
+<h1>Cadastro de Notas</h1>
+<br />
+<a href="/Nota/AddNotas" class="btn btn-info">Adicionar Nota</a>
+<br />
+<br />
+
+<h1>Notas</h1>
+<br/>
+@foreach (var item in Model)
+{
+    <h4>@item.IdAluno</h4>
+    <a class="btn btn-info" href="/Nota/Index/@item.IdAluno">
+        Calcular Media
+    </a>
+}

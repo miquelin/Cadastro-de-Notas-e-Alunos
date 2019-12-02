@@ -1,0 +1,23 @@
+﻿@model List<SistemaDeNotas.Models.Aluno>
+    
+    <br/>
+    <h1>Cadastro de Alunos</h1>
+    <br/>
+    <a href="/Aluno/AddAlunos" class="btn btn-info">Adicionar Aluno</a>
+    <br/>
+    <br/>
+
+    <h1>Alunos</h1>
+
+    @foreach (var item in Model)
+    {
+       <h4>ID: @item.id - Nome: @item.Nome</h4>
+
+       <br/>
+       <b>
+           <h5 class="badge-warning">Copie o ID do aluno para cadastrar na aba de notas.</h5>
+       </b>
+
+       <br/>
+       <a class="btn btn-info" href="/Aluno/Index/@item.id">Exibir Aluno</a>
+       }

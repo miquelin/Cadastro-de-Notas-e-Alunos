@@ -1,0 +1,45 @@
+﻿@model SistemaDeNotas.Models.Nota
+@{ 
+    ViewData["Title"] = "Index";
+
+}
+
+
+    <form class="formulario" method="get" asp-action="Index">
+
+        <h1>Média Calculada</h1>
+
+        <div class="form-group">
+            <label asp-for="IdAluno">ID do Aluno</label>
+            <input disabled class="form-control" asp-for="IdAluno" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nota1">Primeira Nota</label>
+            <input disabled class="form-control" asp-for="Nota1" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nota2">Segunda Nota</label>
+            <input disabled class="form-control" asp-for="Nota2" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nota3">Terceira Nota</label>
+            <input disabled class="form-control" asp-for="Nota3" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Nota4">Quarta Nota</label>
+            <input disabled class="form-control" asp-for="Nota4" />
+        </div>
+
+        <div class="form-group">
+            <b>
+                <label class="badge-warning" asp-for="media">Média Final</label>
+            </b>
+            <input disabled class="form-control" asp-for="media" />
+        </div>
+
+
+    </form>
