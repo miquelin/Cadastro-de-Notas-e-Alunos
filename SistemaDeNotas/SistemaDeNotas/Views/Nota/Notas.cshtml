@@ -1,4 +1,8 @@
 ﻿@model List<SistemaDeNotas.Models.Nota>
+@{
+
+    List<Aluno> listaAlunos = (List<Aluno>)ViewData["alunos"];
+}
 <br />
 
 <h1>Cadastro de Notas</h1>
@@ -8,11 +12,17 @@
 <br />
 
 <h1>Notas</h1>
-<br/>
+<br />
+
 @foreach (var item in Model)
+
 {
-    <h4>@item.IdAluno</h4>
+    var aluno = listaAlunos.Where(x => x.id == Guid.Parse(item.IdAluno)).FirstOrDefault();
+    <br />
+    <h4>@aluno.Nome</h4>
+
     <a class="btn btn-info" href="/Nota/Index/@item.IdAluno">
         Calcular Media
     </a>
+    <br />
 }

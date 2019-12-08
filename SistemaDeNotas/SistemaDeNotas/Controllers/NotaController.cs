@@ -20,6 +20,8 @@ namespace SistemaDeNotas.Controllers
         public IActionResult Notas()
         {
             var notas = _notaRepositorio.todasNotas();
+            var alunos = _alunoRepositorio.todosAlunos();
+            ViewData["alunos"] = alunos;
             return View(notas);
         }
         [HttpPost]
@@ -33,7 +35,8 @@ namespace SistemaDeNotas.Controllers
         [HttpGet]
         public IActionResult AddNotas()
         {
-            
+            List<Aluno> alunos = _alunoRepositorio.todosAlunos();
+            ViewData["alunos"] = alunos;
             return View();
         }
 
@@ -45,9 +48,9 @@ namespace SistemaDeNotas.Controllers
             nota.media = calculaMedia(nota, aluno);
             return View(nota);
         }
-        public int calculaMedia(Nota nota, Aluno aluno)
+        public decimal calculaMedia(Nota nota, Aluno aluno)
         {
-            int media = nota.Nota1 + nota.Nota2 + nota.Nota3 + nota.Nota4;
+            decimal media = nota.Nota1 + nota.Nota2 + nota.Nota3 + nota.Nota4;
             media = media /4;
 
             if(media < 7)

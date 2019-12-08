@@ -8,11 +8,11 @@ namespace SistemaDeNotas.Models
     public class Nota
     {
         public string IdAluno { get; set; }
-        public int Nota1 { get; set; }
-        public int Nota2 { get; set; }
-        public int Nota3 { get; set; }
-        public int Nota4 { get; set; }
-        public int media { get; set; }
+        public decimal Nota1 { get; set; }
+        public decimal Nota2 { get; set; }
+        public decimal Nota3 { get; set; }
+        public decimal Nota4 { get; set; }
+        public decimal media { get; set; }
         
     }
 }

@@ -5,9 +5,10 @@
     "\\SistemaDeNotas\\Controllers",
     "\\SistemaDeNotas\\Models",
     "\\SistemaDeNotas\\Views",
+    "\\SistemaDeNotas\\Views\\Aluno",
     "\\SistemaDeNotas\\Views\\Nota",
     "\\SistemaDeNotas\\Views\\Shared"
   ],
-  "SelectedNode": "\\SistemaDeNotas.sln",
+  "SelectedNode": "\\SistemaDeNotas\\Models\\Nota.cs",
   "PreviewInSolutionExplorer": false
 }

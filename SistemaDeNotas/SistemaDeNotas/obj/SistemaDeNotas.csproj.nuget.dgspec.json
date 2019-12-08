@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cleidiana\\Documents\\csharp\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj": {}
+    "C:\\Users\\Cleidiana\\Documents\\csharp\\TrabalhosEnviados\\Git\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cleidiana\\Documents\\csharp\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj": {
+    "C:\\Users\\Cleidiana\\Documents\\csharp\\TrabalhosEnviados\\Git\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cleidiana\\Documents\\csharp\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj",
+        "projectUniqueName": "C:\\Users\\Cleidiana\\Documents\\csharp\\TrabalhosEnviados\\Git\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj",
         "projectName": "SistemaDeNotas",
-        "projectPath": "C:\\Users\\Cleidiana\\Documents\\csharp\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj",
+        "projectPath": "C:\\Users\\Cleidiana\\Documents\\csharp\\TrabalhosEnviados\\Git\\SistemaDeNotas\\SistemaDeNotas\\SistemaDeNotas.csproj",
         "packagesPath": "C:\\Users\\Cleidiana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cleidiana\\Documents\\csharp\\SistemaDeNotas\\SistemaDeNotas\\obj\\",
+        "outputPath": "C:\\Users\\Cleidiana\\Documents\\csharp\\TrabalhosEnviados\\Git\\SistemaDeNotas\\SistemaDeNotas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
